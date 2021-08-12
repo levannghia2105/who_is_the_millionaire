@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sau đây là ý kiến khán giả trong trường quay"
+            android:textColor="#F40202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="#F40202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <com.skydoves.progressview.ProgressView
+            android:id="@+id/progress_A"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:progressView_colorBackground="@color/teal_200"
+            app:progressView_colorProgress="@android:color/holo_red_dark"
+            app:progressView_radius="40dp"
+            app:progressView_animation="accelerateDecelerate"
+            app:progressView_labelSize="13sp"
+        app:progressView_labelSpace="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="B"
+            android:textColor="#F40202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <com.skydoves.progressview.ProgressView
+            android:id="@+id/progress_B"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:progressView_colorBackground="@color/teal_200"
+            app:progressView_colorProgress="@android:color/holo_red_dark"
+            app:progressView_radius="40dp"
+            app:progressView_animation="accelerateDecelerate"
+            app:progressView_labelSize="13sp"
+            app:progressView_labelSpace="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="C"
+            android:textColor="#F40202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <com.skydoves.progressview.ProgressView
+            android:id="@+id/progress_C"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:progressView_colorBackground="@color/teal_200"
+            app:progressView_colorProgress="@android:color/holo_red_dark"
+            app:progressView_radius="40dp"
+            app:progressView_animation="accelerateDecelerate"
+            app:progressView_labelSize="13sp"
+            app:progressView_labelSpace="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="D"
+            android:textColor="#F40202"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <com.skydoves.progressview.ProgressView
+            android:id="@+id/progress_D"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:progressView_colorBackground="@color/teal_200"
+            app:progressView_colorProgress="@android:color/holo_red_dark"
+            app:progressView_radius="40dp"
+            app:progressView_animation="accelerateDecelerate"
+            app:progressView_labelSize="13sp"
+            app:progressView_labelSpace="10dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
